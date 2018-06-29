@@ -1,3 +1,8 @@
+"""
+By: Bagiliko John
+Year: 2018
+""" 
+
 from django import forms 
 from .models import School
 class AddSchoolForm(forms.ModelForm):
@@ -11,4 +16,4 @@ class AddSchoolForm(forms.ModelForm):
 		"email",
 		"marked"
 		]
-     
+   

@@ -1,3 +1,7 @@
+"""
+By: Bagiliko John
+Year: 2018
+""" 
 """MySchool URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
