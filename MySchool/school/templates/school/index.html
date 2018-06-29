@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{% static 'school/style.css' %}" />
+</head>
+<body bgcolor="beige">
+
+<h1 align="center" style="color: skyblue">This is the list of schools</h1>
+<a href="{% url 'school:add1' %}"><button type="button">Add School</button> </a>
+<hr/>
+ <form method="GET", action="{% url 'school:search' %}">
+ 	{% csrf_token %}
+ 	<input name="q" value="{{request.GET.q}}" placeholder="search school ..." width="60%">
+ 	<button type="submit" value="Search" >search</button>
+ </form>
+ <div>
+{% if school_list %}
+	{% for school in school_list %}
+		<table border="1" width="100%">
+			<tr>
+				<td width="60%">
+				<ul>
+					<li><a href="{% url 'school:detail' school.id %}">{{ school.name }}</li>
+					
+				</ul>
+				</td>
+				{% if school.marked %}
+					<td align="center" width="20%">Draft</td>
+				{% else %}
+					<td align="center" width="20%">Published</td>
+				{% endif %}
+				<td width="20%"><a href="{% url 'school:edit' school.pk %}"><button type="button">Edit School</button></a></td>
+			</tr>
+		</table>
+				{% endfor %}
+{% else %}
+	<p>No schools are availble</p>
+	<a href="{% url 'school:index' %}"><button type="button">Return</button></a>
+{% endif %}
+</div>
+<br/>
+<footer>Copyright &copy; 2018 <strong>Volkeno</strong></footer>
+</body>

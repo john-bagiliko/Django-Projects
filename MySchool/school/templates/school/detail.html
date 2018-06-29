@@ -1,0 +1,21 @@
+<body bgcolor="beige"> 
+<center><h2 style="color: skyblue">{{ school.name }}</h2></center>
+<a href="{% url 'school:deleteMarked' %}"><button type="button">Delete School</button></a>
+<a href="{% url 'school:index' %}"><button type="button">Return</button></a>
+<hr/>
+
+	{% if school.image %}
+	<img src="{{ school.image_url|default_if_none:'#' }}" />
+	{% else %}
+	<p><h3>Upload an image</h3></p>
+	{% endif %}
+	
+	Info: {{school.address_and_info}}
+	
+<br/>
+<hr/>
+Email address: {{ school.email }}<br/>
+<br/>
+Copyright &copy; 2018 <strong>Volkeno</strong>
+
+</body>

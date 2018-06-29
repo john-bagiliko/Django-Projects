@@ -1,0 +1,762 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Sc",
+				"SchoolSerializer"
+			],
+			[
+				"quer",
+				"get_queryset"
+			],
+			[
+				"views",
+				"viewsets"
+			],
+			[
+				"ser",
+				"serializer_class"
+			],
+			[
+				"S",
+				"SchoolSerializer"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"urls",
+				"urlpatterns"
+			],
+			[
+				"M",
+				"MySchool"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"sch",
+				"school_id"
+			],
+			[
+				"sc",
+				"school_id"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"ht",
+				"http"
+			],
+			[
+				"dele",
+				"deleteMarked"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"b",
+				"border\tAttr"
+			],
+			[
+				"de",
+				"deletemarked"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"School",
+				"school"
+			],
+			[
+				"school",
+				"school_name"
+			],
+			[
+				"add",
+				"address_and_info"
+			],
+			[
+				"C",
+				"ChoiceInline"
+			],
+			[
+				"ques",
+				"question_text"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"cre",
+				"create_question"
+			],
+			[
+				"que",
+				"question_text"
+			],
+			[
+				"ass",
+				"assertQuerysetEqual"
+			],
+			[
+				"Questi",
+				"Question"
+			],
+			[
+				"la",
+				"latest_question_list"
+			],
+			[
+				"as",
+				"assertQueryseEqual"
+			],
+			[
+				"time",
+				"timedelta"
+			],
+			[
+				"q",
+				"question_id"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"pub",
+				"pub_date"
+			],
+			[
+				"h",
+				"h1"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"to",
+				"todos"
+			],
+			[
+				"todo",
+				"todo"
+			],
+			[
+				"__",
+				"__future__"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"dja",
+				"django"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/models.py",
+			"settings":
+			{
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "add.html",
+			"settings":
+			{
+				"buffer_size": 353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/urls.py",
+			"settings":
+			{
+				"buffer_size": 770,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/MySchool/urls.py",
+			"settings":
+			{
+				"buffer_size": 976,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/serializers.py",
+			"settings":
+			{
+				"buffer_size": 252,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/views.py",
+			"settings":
+			{
+				"buffer_size": 1940,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"d3.tsv(\"http://simplysanad.com/d3js/data.tsv\", function(error, data){ if(error) console.log(error); else console.table(data);});",
+			"d3.tsv(\"http://simplysanad.com/d3js/data.tsv\", function(error, data) { if(error) console.log(error); else console.table(data);});",
+			"d3.tsv(\"http://simplysanad.com/d3js/data.tsv\", function(error, data) {if(error) console.log(error); else console.table(data);});",
+			"data=d3.tsv(\"http://simplysanad.com/d3js/data.tsv\")",
+			"dat=d3.tsv(\"http://simplysanad.com/d3js/data.tsv\")",
+			"d3.tsv(\"http://simplysanad.com/d3js/data.tsv\", function(data) {console.table(data);});",
+			"d3.tsv(\"http://simplysanad.com/d3js/data.tsv\", function(data){console.table(data);});",
+			"ls",
+			"var ParseDate = d3.time.format(\"%d-%b-%y\").parse;"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/MySchool",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/static",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school"
+	],
+	"file_history":
+	[
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/apiviews.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/MySchool/settings.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/MySchool/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school/results.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/forms.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school/detail.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Combined_app/Volkeno/todolist/todos/templates/todo/index.html",
+		"/home/johnb/Downloads/Forms.Rhtml",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/views.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school/add.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school/modify.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/PicsApp/settings.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/PicsApp/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/pictures/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/pictures/models.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/pictures/admin.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/mypicApp/PicsApp/pictures/views.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/templates/school/index.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/models.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/static/school/style.css",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/templates/polls/index.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Combined_app/Volkeno/todolist/todos/static/todo/bs/CSS/bootstrap.css",
+		"/home/johnb/Volkeno_Django_PROJECTS/Combined_app/Volkeno/todolist/todos/static/todo/styles.css",
+		"/home/johnb/Volkeno_Django_PROJECTS/Combined_app/Volkeno/todolist/todos/static/todo/bs/CSS/flatly.min.css",
+		"/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/admin.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/views.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/django-polls/MANIFEST.in",
+		"/home/johnb/Volkeno_Django_PROJECTS/django-polls/setup.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/models.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/tests.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/static/polls/style.css",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/templates/polls/detail.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/admin.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/mysite/settings.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/polls/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Mypolls/mysite/mysite/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/templates/todo/index.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/views.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/myproject/settings.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/templates/admin/base_site.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/templates/base_site.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/templates/base.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/templates/home.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/templates/registration/login.html",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/myproject/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/verification/urls.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/verification/views.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/models.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/admin.py",
+		"/home/johnb/Volkeno_Django_PROJECTS/Simple_Todo/myproject/todo/forms.py",
+		"/home/johnb/myblog/blog/blog/urls.py",
+		"/home/johnb/myblog/blog/blogging/urls.py",
+		"/home/johnb/my_project/templates/base.html",
+		"/home/johnb/my_project/my_project/urls.py",
+		"/home/johnb/my_project/accounts/views.py",
+		"/home/johnb/my_project/my_project/settings.py",
+		"/home/johnb/my_project/templates/signup.html",
+		"/home/johnb/my_project/templates/home.html",
+		"/home/johnb/my_project/templates/registration/login.html",
+		"/home/johnb/my_project/accounts/urls.py",
+		"/home/johnb/my_project/accounts/forms.py",
+		"/home/johnb/Boostrap_Project/index.html",
+		"/home/johnb/TryDatabase/python_mysql.sql",
+		"/home/johnb/MyTodo/todolist/todos/models.py",
+		"/home/johnb/MyTodo/todolist/todos/admin.py",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/styles.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap-theme.css",
+		"/home/johnb/MyTodo/todolist/todos/templates/todo/index.html",
+		"/home/johnb/MyTodo/todolist/todolist/urls.py",
+		"/home/johnb/MyTodo/todolist/todos/views.py",
+		"/home/johnb/MyTodo/todolist/todos/urls.py",
+		"/home/johnb/Downloads/Old Faithful Geyser Data.html",
+		"/home/johnb/MyTodo/todolist/todos/forms.py",
+		"/home/johnb/MyTodo/todolist/todolist/settings.py",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap.min.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/flatly.min.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/united.min.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/js/bootstrap.js",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/js/bootstrap.min.js",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/js/npm.js",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/urls.py",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/cerulean.min.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap.min.css.map",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap.css.map",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap-theme.min.css",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap-theme.css.map",
+		"/home/johnb/MyTodo/todolist/todos/static/todo/bs/CSS/bootstrap-theme.min.css.map",
+		"/home/johnb/MyTodo/todolist/todos/templates/todo",
+		"/home/johnb/APPS/todolist/todos/templates/details.html",
+		"/home/johnb/APPS/todolist/todos/templates/index.html",
+		"/home/johnb/APPS/todolist/todos/templates/add.html",
+		"/home/johnb/APPS/todolist/todos/urls.py",
+		"/home/johnb/APPS/todolist/todos/views.py",
+		"/home/johnb/APPS/todolist/todos/apps.py",
+		"/home/johnb/APPS/todolist/todolist/urls.py",
+		"/home/johnb/APPS/todolist/todos/admin.py",
+		"/home/johnb/APPS/todolist/todos/details.html",
+		"/home/johnb/APPS/todolist/todos/todos/details.html",
+		"/home/johnb/APPS/todolist/todos/templates/todo/details.html",
+		"/home/johnb/APPS/todolist/todos/todo/details.html",
+		"/home/johnb/apps1/mysite/mysite/urls.py",
+		"/home/johnb/apps1/mysite/polls/views.py",
+		"/home/johnb/apps1/mysite/polls/urls.py",
+		"/home/johnb/apps1/mysite/mysite/settings.py",
+		"/home/johnb/apps1/mysite/polls/models.py",
+		"/home/johnb/apps1/mysite/polls/templates/polls/detail.html",
+		"/home/johnb/apps1/mysite/polls/templates/polls/index.html",
+		"/home/johnb/apps1/mysite/polls/admin.py",
+		"/home/johnb/APPS/todolist/todos/templates/admin/base_site.html",
+		"/home/johnb/APPS/todolist/todolist/settings.py",
+		"/home/johnb/APPS/todolist/todos/models.py",
+		"/home/johnb/APPS/todolist/manage.py",
+		"/home/johnb/apps/todolist/todolist/settings.py",
+		"/home/johnb/apps/todolist/manage.py",
+		"/home/johnb/apps/todolist/todolist/urls.py",
+		"/home/johnb/apps/todolist/todos/views.py",
+		"/home/johnb/apps/todolist/todos/urls.py",
+		"/home/johnb/apps/todolist/todolist/__init__.py",
+		"/home/johnb/apps/todolist/todolist/wsgi.py",
+		"/home/johnb/D3_js_Projects/index.html",
+		"/home/johnb/D3_js_Projects/simple_barchat.html",
+		"/home/johnb/D3_js_Projects/visualise_d3/advanced_visualisation.html",
+		"/home/johnb/D3_js_Projects/visualise_d3/main.css",
+		"/home/johnb/D3_js_Projects/vgm.html"
+	],
+	"find":
+	{
+		"height": 37.962037962
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1225,
+								1225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.889110889,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "add.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.819180819,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/MySchool/urls.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 272.727272727,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/serializers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/johnb/Volkeno_Django_PROJECTS/ScoolApp/MySchool/school/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1866,
+								1866
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1040.95904096,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.962037962
+	},
+	"input":
+	{
+		"height": 40.963036963
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "modify.sublime-project",
+	"replace":
+	{
+		"height": 71.9280719281
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,15 @@
+<!--DOCTYPE html-->
+<html>
+
+<body bgcolor="beige">
+	<h1>Form</h1>
+	<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="Add"/>
+	</form>
+<a href="{% url 'school:index' %}"><button type="button">Return</button></a>
+<hr/>
+
+Copyright &copy; 2018 <strong>Volkeno</strong>
+</body> 
+</html>
