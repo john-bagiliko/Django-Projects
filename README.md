@@ -30,6 +30,8 @@ mysql> CREATE DATABASE database_name;
 Clone the repository into your directory as:
 
 $cd your_directory
+
+
 $git clone https://github.com/john-bagiliko/Django-Projects.git
 
 Open the settings.py file and change "githubdb" to "database_name" 
@@ -38,8 +40,11 @@ under the DATABASES section
 $cd Django-Projects/MySchool
 
 $python manage.py migrate
+
 $python manage.py makemigrations
+
 $python manage.py migrate
+
 $python manage.py createsuperuser
 
 $python manage.py runserver 5000
