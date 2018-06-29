@@ -2,10 +2,6 @@ from django.urls import path, include
 from . import views
 
 from .apiviews import SchoolList, SchoolDetail
-# from rest_framework import routers
-
-# router = routers.DefaultRouter()
-# router.register('schools', views.SchoolView)
 
 app_name='school'
 urlpatterns = [
@@ -17,5 +13,5 @@ urlpatterns = [
 	path('<int:school_id>/edit/', views.edit, name='edit'),
 	path("api/schools/", SchoolList.as_view(), name="schools_list"),
 	path("api/schools/<int:pk>/", SchoolDetail.as_view(), name="school_detail")
-	# path('api/', include(router.urls))
+	
 ]

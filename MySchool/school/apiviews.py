@@ -9,16 +9,9 @@ from .serializers import SchoolSerializer
 class SchoolList(generics.ListCreateAPIView):
 	queryset = School.objects.all()[:20]
 	serializer_class = SchoolSerializer
-	# def get(self, request):
-	# 	schools = School.objects.all()[:20]
-	# 	data = SchoolSerializer(schools, many=True).data
-	# 	return Response(data)
-
+	
 class SchoolDetail(generics.RetrieveDestroyAPIView):
 	queryset = School.objects.all()
 	serializer_class = SchoolSerializer
 
-	# def get(self, request, pk):
-	# 	school = get_object_or_404(School, pk=pk)
-	# 	data = SchoolSerializer(school).data
-	# 	return Response(data)
+	

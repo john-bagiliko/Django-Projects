@@ -20,7 +20,6 @@ class IndexView(generic.ListView):
 	context_object_name = 'school_list'
 
 	def get_queryset(self): 
-		"""Return the last five published questions."""
 		return School.objects.all()
 
 	

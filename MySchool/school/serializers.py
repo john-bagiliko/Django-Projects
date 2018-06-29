@@ -8,4 +8,4 @@ class SchoolSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = School
 		fields = '__all__'
-		# fields = ('url', 'id', 'name', 'email', 'address_and_info', 'image', 'marked')
+		
