@@ -30,8 +30,8 @@ visit this place and have MySQL installed
 https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
 
 Create your database:
-as
-login to mysql and create a database as 
+that is,
+login to mysql and create a database using: 
 
 mysql> CREATE DATABASE database_name;
 
