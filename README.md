@@ -20,7 +20,7 @@ Or
 
 go to Django Rest framework page
 http://www.django-rest-framework.org/
-and follow the instructions.
+and follow the installation instructions.
  
 I am also using MySQL database instead of the default sqlite database that 
 comes with django.
@@ -31,20 +31,26 @@ https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
 
 Create your database:
 as
+login to mysql and create a database as 
 
 mysql> CREATE DATABASE database_name;
 
+Now that your database is set, do
+
+quit the database server using Ctrl + D
+
+$mkdir your_directory
+
+$ cd your_directory
+
 Clone the repository into your directory as:
-
-$cd your_directory
-
 
 $git clone https://github.com/john-bagiliko/Django-Projects.git
 
-Open the settings.py file and change "githubdb" to "database_name" 
+Open the settings.py file with a text editor and change "githubdb" to "database_name" 
 under the DATABASES section
 
-It should be something like 
+It should look something like 
 
 DATABASES = {
 
@@ -66,9 +72,17 @@ DATABASES = {
 }
 
 
-However, if you would like to go with the default sqlite database, 
+However, if you would like to go with the default sqlite database instead,
+just do the following:
 
-change the DATABASE section in the settings.py to look like this:
+$mkdir your_directory
+
+$cd your_directory
+$git clone https://github.com/john-bagiliko/Django-Projects.git
+
+Open the settings.py file with a text editor and 
+
+change the DATABASE section to look like this:
 
 DATABASES = {
 
@@ -81,15 +95,25 @@ DATABASES = {
 	}
 } 
 
+All is set! 
+
+Whether using mysql or going with sqlite, lets all continue as follows:
+
 $cd Django-Projects/MySchool
 
-$python manage.py migrate
-
-$python manage.py makemigrations
+Perform the migrations to create tables in your database using:
 
 $python manage.py migrate
+
+$python manage.py makemigrations 
+
+$python manage.py migrate
+
+Create an admin suing: 
 
 $python manage.py createsuperuser
+
+Run the development server using
 
 $python manage.py runserver 5000
 
@@ -97,10 +121,15 @@ go to your browser and type
 
  http://127.0.0.1:5000/school
  
+ Access the api page on this link 
+ 
+ http://127.0.0.1:5000/school/api/schools
+ 
+ 
 You can also visit the admin page using
 
 http://127.0.0.1:5000/admin
 
-and enter the details that you used when you run python manage.py createsuperuser
+and enter the details that you used when you ran 'python manage.py createsuperuser'
 
 Let me know if it worked for you.
