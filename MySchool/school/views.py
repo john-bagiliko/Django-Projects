@@ -70,9 +70,3 @@ def edit(request, school_id):
 		return render(request, template, context) 
 
 
-
-
-#######################################################
-class SchoolView(viewsets.ModelViewSet):
-	queryset = School.objects.all()
-	serializer_class = SchoolSerializer
