@@ -139,3 +139,5 @@ http://127.0.0.1:5000/admin
 and enter the details that you used when you ran 'python manage.py createsuperuser'
 
 Let me know if it worked for you.
+
+email: john.bagiliko@aims-senegal.org
