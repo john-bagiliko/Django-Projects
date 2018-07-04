@@ -78,6 +78,7 @@ just do the following:
 $mkdir your_directory
 
 $cd your_directory
+
 $git clone https://github.com/john-bagiliko/Django-Projects.git
 
 Open the settings.py file with a text editor and 
@@ -91,6 +92,9 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+You do not have to add anything else. This is fine for sqlite. Django will create the necessary database and all the tables 
+required in this database. 
 
 All is set! 
 
