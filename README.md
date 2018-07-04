@@ -102,13 +102,18 @@ Perform the migrations to create tables in your database using:
 
 $python manage.py migrate
 
+Create an admin using: 
+
+$python manage.py createsuperuser
+
+Make migrations using:
+
 $python manage.py makemigrations 
+
+Finally, migrate
 
 $python manage.py migrate
 
-Create an admin suing: 
-
-$python manage.py createsuperuser
 
 Run the development server using
 
