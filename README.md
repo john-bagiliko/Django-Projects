@@ -1,6 +1,6 @@
 # Django-Projects
 This django app allows all to add a school, view a school, 
-delete a school and  modify a school. One can 
+delete a school, search a school and  modify a school. One can 
 make an api request and will have the ability to do anything with
  it, ie. GET, PUT, PATCH, DELETE etc.
 
