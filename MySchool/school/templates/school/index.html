@@ -9,10 +9,10 @@
 <h1 align="center" style="color: skyblue">This is the list of schools</h1>
 <a href="{% url 'school:add1' %}"><button type="button">Add School</button> </a>
 <hr/>
- <form method="GET", action="{% url 'school:search' %}">
+ <form name="myform" method="GET" action="{% url 'school:search' %}">
  	{% csrf_token %}
- 	<input name="q" value="{{request.GET.q}}" placeholder="search school ..." width="60%">
- 	<button type="submit" value="Search" >search</button>
+ 	<input type="text" name="mysearch" placeholder="search school ..." width="60%">
+ 	<button type="submit" value="submit">search</button>
  </form>
  <div>
 {% if school_list %}
@@ -33,7 +33,22 @@
 				<td width="20%"><a href="{% url 'school:edit' school.pk %}"><button type="button">Edit School</button></a></td>
 			</tr>
 		</table>
-				{% endfor %}
+	{% endfor %}
+	{% if is_paginated %}
+        <div class="pagination">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="/school?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="/school?page={{ page_obj.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
 {% else %}
 	<p>No schools are availble</p>
 	<a href="{% url 'school:index' %}"><button type="button">Return</button></a>

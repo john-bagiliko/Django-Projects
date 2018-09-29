@@ -1,0 +1,12 @@
+{% if results %}
+{% for school in results %} 
+    <h3>{{school.name}}</h3>
+	    {% if school.image %}
+		<img src="{{ school.image_url|default_if_none:'#' }}" />
+		{% else %}
+		<p><h3>Upload an image</h3></p>
+		{% endif %}
+    <p>{{school.email}}</p>
+    <p>{{school.address_and_info}}</p>   
+{% endfor %}
+{% endif %}

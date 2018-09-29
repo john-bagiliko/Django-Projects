@@ -13,11 +13,14 @@ from django.urls import reverse
 from django.db.models import Q
 from rest_framework import viewsets
 from .serializers import SchoolSerializer
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+
 
 
 class IndexView(generic.ListView):
 	template_name = 'school/index.html'
 	context_object_name = 'school_list'
+	paginate_by = 7
 
 	def get_queryset(self): 
 		return School.objects.all()
@@ -42,11 +45,12 @@ def add1(request):
 
 
 def search(request):
-	template='school/index.html'
-	query=request.GET.get('q')
+	template='school/search.html'
+	query=request.GET.get('mysearch')
 	results=School.objects.filter(Q(name__icontains=query))
-	return render(request, template)
-
+	context = {'results': results}
+	return render(request, template, context)
+	
 
 def deleteMarked(request):
 	School.objects.filter(marked__exact=True).delete()
