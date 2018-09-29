@@ -33,7 +33,9 @@ Create your database:
 that is,
 login to mysql and create a database using: 
 
-mysql> CREATE DATABASE database_name;
+mysql> CREATE DATABASE database_name; 
+
+Note: Replace 'database_name' with your prefared name.
 
 Now that your database is set, do
 
@@ -47,10 +49,9 @@ Clone the repository into your directory as:
 
 $git clone https://github.com/john-bagiliko/Django-Projects.git
 
-Open the settings.py file with a text editor and change "githubdb" to "database_name" 
-under the DATABASES section
+Open the settings.py file in the project directory with a text editor
 
-It should look something like 
+Verify that the DATABASES section looks something like this: 
 
 DATABASES = {
 
@@ -58,7 +59,7 @@ DATABASES = {
 
 		'ENGINE': 'django.db.backends.mysql',
 
-		'NAME': 'database_name',
+		'NAME': 'database_name', #replace 'database_name' with the name of the database you created
 
 		'USER': 'root', #If your mysql username is different, replace 'root' with that.
 
