@@ -35,7 +35,10 @@ Create your database:
 that is,
 login to mysql and create a database using: 
 
-mysql> CREATE DATABASE database_name; 
+
+```mysql
+mysql> CREATE DATABASE database_name;
+``` 
 
 Note: Replace 'database_name' with your prefared name.
 
