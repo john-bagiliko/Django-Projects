@@ -16,8 +16,9 @@ $pip install Django==2.0.5
 
 Install the django rest_framwork using:
 
+```bash
 $pip install djangorestframework
-
+```
 Or
 
 go to Django Rest framework page
