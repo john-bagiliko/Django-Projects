@@ -46,13 +46,17 @@ Now that your database is set, do
 
 quit the database server using Ctrl + D
 
-$mkdir your_directory
+```bash
+$ mkdir your_directory
 
 $ cd your_directory
+```
 
 Clone the repository into your directory as:
 
+```bash
 $git clone https://github.com/john-bagiliko/Django-Projects.git
+```
 
 Open the settings.py file in the project directory with a text editor
 
@@ -143,7 +147,10 @@ $python manage.py migrate
 
 Run the development server using
 
+
+```bash
 $python manage.py runserver 5000
+```
 
 go to your browser and type 
 
